@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+}
+.biggest{
+    height: 1350px;
+    width: 1540px;
+    position: absolute;
+    top: 86px;
+}
+.left_box{
+    width: 150px;
+    height: 1000px;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    font: 800 150px/300px "方正舒体";
+    color: rgb(246, 250, 10);
+}
+.navimg{
+    height: 80px;
+    width: 1536px;
+    border: 3px solid rgb(112, 14, 14);
+    display: none;
+    background: rgb(114, 1, 1);
+}
+.lx{
+    position: absolute;
+    top: 0px;
+    left: 440px;
+    height: 80px;
+    width: 80px;
+   
+}
+.rx{
+    position: absolute;
+    top: 0px;
+    right: 390px;
+    height: 80px;
+    width: 80px;
+   
+}
+.choice{
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-left:530px;
+    width: 750px;
+    height: 60px;
+    cursor: pointer;
+}
+.choice ul li{
+    float: left;
+    display: inline-block;
+    margin: 0px 1px;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    color:rgb(255, 197, 207);
+    font: 400 24px/60px "宋体";
+    cursor: pointer;
+    box-shadow:5px 2px 10px rgb(213, 36, 248) inset;
+    text-shadow: 20px 10px 10px rgb(253, 64, 38);
+    border-radius: 70px/40px;
+    border-left: gold;
+    border-right:gold;  
+}
+.chajian{
+    position:absolute;
+    top: 164px;
+    left: 269px;
+    width: 650px;
+    height: 100px;
+    text-align: left;
+    text-indent: 2em;
+    font: 200 17px/50px "宋体";
+    cursor: pointer;
+    color: aliceblue;
+    z-index: 2;
+    display:none;
+}
+
+.text1{
+    position: relative;
+    top: 0px;
+    left: 258px;
+    width: 1000px;
+    height: 1300px;
+    display: none;
+}
+
+.imgone{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 10px 10px #000;
+    cursor: pointer;
+    overflow: hidden;
+}
+.intdce{
+    position: absolute;
+    top: 10px;
+    left: 675px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 20px rgb(247, 48, 48) inset;
+    cursor: pointer;
+}
+.head{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    width: 200px;
+    height: 30px;
+    background: rgb(247, 7, 7);
+    box-shadow: 1px 2px 2px rgb(53, 146, 252);
+    text-align: center;
+    font: 300 18px/30px "宋体";
+    color: white;
+    border-radius: 60px/20px;
+}
+.headimg{
+  position: absolute;
+  right: 24px;
+  top: 10px;
+  width: 300px;
+  height: 250px;
+  z-index: 3;
+  cursor: pointer;
+}
+.headcontent{
+    text-indent: 2em;
+    position: absolute;
+    top: 52px;
+    left: 10px;
+    width: 280px;
+    height: 150px;
+    color: white;
+    border-radius: 50px/50px;
+    box-shadow: 5px 2px 2px blueviolet;
+}
+
+
+
+.liuyanban{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    width: 200px;
+    height: 30px;
+    font: 400 35px/30px "宋体";
+    color: rgb(234, 247, 56);
+    text-shadow: 10px 5px 5px greenyellow;
+}
+.imgone2{
+    position: absolute;
+    cursor: pointer;
+    top: 350px;
+    left: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 2px rgb(111, 108, 252);
+    border-radius: 80px/30px;
+    background:url("images/背景.jpg");
+}
+.head2img{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 180px;
+    height: 130px;
+}
+.head2{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    width: 200px;
+    height: 30px;
+    font: 200 20px/30px "宋体";
+    color: rgb(245, 55, 204);
+}
+.head2:hover{
+    color: aquamarine;
+}
+.box{
+    position: absolute;
+    top: 60px;
+    left: 210px;
+    width: 400px;
+    height: 150px;
+    text-align: left;
+    color: white;
+    text-indent: 2em;
+}
+.box:hover{
+    color: chartreuse;
+}
+
+.article1{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 200px;
+    height: 30px;
+    font: 200 20px/30px "宋体";
+    color: rgb(241, 35, 52);
+    text-shadow: 10px 5px 5px rgb(66, 233, 33);
+}
+.article2{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 200px;
+    height: 30px;
+    font: 200 20px/30px "宋体";
+    color: rgb(245, 53, 213);
+    text-shadow: 10px 5px 5px rgb(245, 40, 3);
+}
+.article3{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 200px;
+    height: 30px;
+    font: 200 20px/30px "宋体";
+    color: rgb(51, 250, 78);
+    text-shadow: 10px 5px 5px rgb(253, 22, 165);
+}
+.phb1{
+    position:absolute;
+    top: 43px;
+    left: 15px;
+}
+.intdce2 ul li{
+     display: inline-block;
+     list-style: none;
+     width: 270px;
+     height: 30px;
+     margin: 3px 0px;
+    box-shadow: 5px 2px 2px rgb(77, 252, 114) inset;
+}
+.intdce2 ul li a{
+    text-indent: 2em;
+    display: inline-block;
+    color: white;
+   text-decoration: none;
+   font-size: 200;
+   width: 270px;
+   height: 30px;
+   font: 200 16px/30px "宋体";
+}
+
+.intdce3 ul li{
+    display: inline-block;
+    list-style: none;
+    width: 270px;
+    height: 30px;
+    margin: 3px 0px;
+   box-shadow: 5px 2px 2px rgb(97, 145, 247) inset;
+}
+.intdce3 ul li a{
+   text-indent: 2em;
+   display: inline-block;
+   color: rgba(247, 243, 44, 0.8);
+  text-decoration: none;
+  font-size: 200;
+  width: 270px;
+  height: 30px;
+  font: 200 16px/30px "宋体";
+}
+
+.intdce2{
+    position: absolute;
+    cursor: pointer;
+    top: 350px;
+    left: 700px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 10px rgb(247, 48, 204) inset;
+    border-radius: 50px/15px;
+    text-shadow: 10px 5px 5px rgb(252, 249, 86);
+}
+
+.imgone3{
+    position: absolute;
+    cursor: pointer;
+    top: 700px;
+    left: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 2px rgb(87, 242, 253);
+    border-radius: 80px/30px;
+    background:url("images/头像2.jpg") -0px -30px;
+}
+.intdce3{
+    position: absolute;
+    cursor: pointer;
+    top: 700px;
+    left: 700px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 10px rgb(102, 255, 71) inset;
+    border-radius: 50px/15px;
+   
+}
+.imgone4{
+    position: absolute;
+    cursor: pointer;
+    top: 1050px;
+    left: 10px;
+    width: 650px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 2px rgb(248, 54, 167);
+    border-radius: 80px/30px;
+}
+.intdce4{
+    position: absolute;
+    cursor: pointer;
+    top: 1050px;
+    left: 700px;
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow:5px 2px 10px rgb(41, 248, 255) inset;
+    text-shadow: 10px 5px 5px rgb(243, 241, 134);
+    border-radius: 50px/15px;
+   
+}
+.imgtext{
+    width: 298px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 1px;
+}
+.imgtext ul li{
+    display: inline-block;
+    width: 298px;
+    height: 60px;
+    margin: 3px 0px;
+    color: rgb(56, 243, 39);
+}
+.font{
+    position:absolute;
+    top: 21px;
+    left: 83px;
+    width:200px;
+    height: 30px;
+    font: 500 18px/30px "宋体";
+}
+.font2{
+    position:absolute;
+    top: 90px;
+    left: 83px;
+    width:200px;
+    height: 30px;
+    font: 500 18px/30px "宋体";
+}
+.font3{
+    position:absolute;
+    top: 160px;
+    left: 83px;
+    width:200px;
+    height: 30px;
+    font: 500 18px/30px "宋体";
+}
+.font a,.font2 a,.font3 a{
+    display: inline-block;
+    text-decoration: none;
+    width:200px;
+    height: 30px;
+    color: rgb(56, 243, 39);
+    font: 500 18px/30px "宋体";
+}

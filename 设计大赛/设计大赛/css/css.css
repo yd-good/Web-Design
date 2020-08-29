@@ -1,0 +1,106 @@
+﻿@charset "UTF-8";
+/*初始化  reset*/
+blockquote,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+body{
+   background:url("../images/1.jpg");
+}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+.wrap{
+    width:1200px;
+    margin:20px auto;
+}
+.slide {
+    height:500px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+.arrow{
+    opacity: 0;
+}
+.prev,.next{
+    width:76px;
+    height:112px;
+    position: absolute;
+    top:60%;
+    margin-top:-56px;
+    background: url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+.next{
+    right:0;
+    background-image: url(../images/next.png);
+}
+
+
+
+.music{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+.jiantou{
+    position:absolute;
+    top: 180px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.nav1{
+    position: absolute;
+    top: 30%;
+    left: 0px;;
+    width: 30px;
+    height: 210px;
+    font: 400 18px/30px "宋体";
+    background: red;
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.showvideo{
+    position: absolute;
+    top: 120px;
+    left: 368px;
+    height: 450px;
+    width: 800px;
+    background: #000;
+    z-index: 99;
+    display: none;
+}
+
+.last_box{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 373px;
+    bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    font: 400 100px/100px "华文行楷" ;
+    color:rgba(248, 16, 8, 0.952);
+}
+
+
+
+
+
